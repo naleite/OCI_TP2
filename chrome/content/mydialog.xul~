@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<dialog id="myDialog" title="My Dialog"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        onload="window.sizeToContent();"
+        buttons="accept,cancel"
+        buttonlabelaccept="Set Favorite"
+        buttonaccesskeyaccept="S"
+        ondialogaccept="return doSave();"
+        buttonlabelcancel="Cancel"
+        buttonaccesskeycancel="n"
+        ondialogcancel="return doCancel();">
+
+  <script>
+    function doSave(){
+     //doSomething()
+     return true;
+    }
+
+    function doCancel(){
+      return true;
+    }
+  </script>
+
+  <dialogheader title="My dialog" description="Example dialog"/>
+  <groupbox flex="1">
+    <caption label="Select favorite fruit"/>
+    <radiogroup>
+      <radio id="1" label="Oranges because they are fruity"/>
+      <radio id="2" selected="true" label="Strawberries because of color"/>
+      <radio id="3" label="Bananna because it pre packaged"/>
+    </radiogroup>
+  </groupbox>
+
+</dialog>

@@ -1,0 +1,17 @@
+
+Components.utils.import('resource://gre/modules/devtools/dbg-server.jsm');
+if (!DebuggerServer.initialized) {
+  DebuggerServer.init();
+  // Don't specify a window type parameter below if "navigator:browser"
+  // is suitable for your app.
+  DebuggerServer.addBrowserActors("myXULRunnerAppWindowType");
+}
+DebuggerServer.openListener(6000);
+
+function showMore() {  
+  document.getElementById("more-text").hidden = false;
+}
+
+function openWindow() {
+  window.open("chrome://browser/content/places/places.xul", "bmarks", "chrome,width=600,height=300");    
+}
