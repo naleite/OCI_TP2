@@ -15,9 +15,9 @@
 		<caption label="IMA"/>
 		<groupbox flex="1">
 
-			<hbox flex="1">
+			<hbox>
 			<caption label="Code: " />
-			<menulist label="Pearl" flex="1">
+			<menulist label="Pearl">
 				<menupopup>
 					<menuitem label="Pearl" selected="true"  />
 					<menuitem label="Aramis"  />
@@ -26,10 +26,10 @@
 					<menuitem label="Cosmo"   />
 				</menupopup>
 			</menulist>
-			<button flex="1" label="Modifier" />
+			<button  flex="1" label="Modifier" />
 			<button flex="1" label="Ajouter" />
 			<spacer flex="1"/>
-			<button flex="1" label="Fermer" />
+			<button  label="Fermer" flex="1"/>
 			</hbox>
 
 		</groupbox>
@@ -94,7 +94,7 @@
 
 	<spacer flex="1"/>
 
-	<groupbox flex="1">
+	<groupbox flex="1" label="Tranche">
 		<hbox flex="1">
 			<caption label="Code:" />
 			<vbox flex="1">

@@ -9,7 +9,7 @@
 <vbox flex="2">
 	<label value="This is overlay:" />
 <tree flex="1"
-		id="my-tree" 
+		id="ue-tree"
        datasources="ue.rdf" ref="http://www.rennes1.com/all-UE" >
     <treecols >
     <treecol id="nomUE"  label="UE"  flex="1"/>
