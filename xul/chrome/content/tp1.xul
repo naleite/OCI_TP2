@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xul-overlay href="chrome://myapp/content/ueoverlay.xul"?>
+<window
+    id="window"
+    title="Gestion de xxx "
+    persist="screenX screenY width height"
+    orient="horizontal"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"  >
+
+<vbox flex="1">
+	<spacer flex="1"/>
+	<hbox flex="1">
+		<caption label="IMA"/>
+		<groupbox flex="1">
+
+			<hbox flex="1">
+			<caption label="Code: " />
+			<menulist label="Pearl" flex="1">
+				<menupopup>
+					<menuitem label="Pearl" selected="true"  />
+					<menuitem label="Aramis"  />
+					<menuitem label="Yakima"  />
+					<menuitem label="Tribble" />
+					<menuitem label="Cosmo"   />
+				</menupopup>
+			</menulist>
+			<button flex="1" label="Modifier" />
+			<button flex="1" label="Ajouter" />
+			<spacer flex="1"/>
+			<button flex="1" label="Fermer" />
+			</hbox>
+
+		</groupbox>
+
+	</hbox>
+
+	<spacer flex="1"/>
+
+	<groupbox flex="1">
+		<hbox flex="1">
+			<caption label="Code:"/>
+			<spacer style="width: 105px"/>
+			<textbox width="50" value=""/>
+			<spacer style="width: 20px"/>
+		</hbox>
+		<spacer style="height: 5px"/>
+		<hbox flex="1">
+			<caption label="Nom:" />
+			<spacer style="width: 110px"/>
+			<textbox value="" flex="1"/>
+			<spacer style="width: 20px"/>
+		</hbox>
+		<spacer style="height: 5px"/>
+		<hbox flex="1">
+			<caption label="Adresse:" />
+			<spacer style="width: 90px"/>
+			<vbox flex="1">
+				<textbox value="" flex="1"/>
+				<textbox value="" flex="1"/>
+			</vbox>
+			<spacer style="width: 20px"/>
+		</hbox>
+		<spacer style="height: 5px"/>
+		<hbox flex="1">
+			<caption label="Code Postal et ville:" />
+			<spacer style="width: 60px"/>
+			<hbox flex="1">
+				<textbox value="" flex="1"/>
+				<textbox value="" flex="1"/>
+			</hbox>
+			<spacer style="width: 20px"/>
+		</hbox>
+		<spacer style="height: 5px"/>
+		<hbox flex="1">
+			<caption label="Nom d'utilisateur:" />
+			<spacer style="width: 60px"/>
+
+				<textbox value="" flex="1"/>
+
+			<spacer style="width: 20px"/>
+		</hbox>
+		<spacer style="height: 5px"/>
+		<hbox flex="1">
+			<caption label="Platfond de Reference:" />
+			<spacer style="width: 60px"/>
+
+			<textbox value="" width="80"/>
+
+			<spacer flex="1"/>
+		</hbox>
+	</groupbox>
+
+	<spacer flex="1"/>
+
+	<groupbox flex="1">
+		<hbox flex="1">
+			<caption label="Code:" />
+			<vbox flex="1">
+				<textbox width="50" />
+				<textbox width="50" />
+				<textbox width="50" />
+			</vbox>
+			<spacer style="height: 10px"/>
+			<caption label="De"/>
+			<vbox flex="1">
+				<menulist label="Pearl">
+					<menupopup>
+						<menuitem label="Pearl" selected="true"  />
+						<menuitem label="Aramis"  />
+						<menuitem label="Yakima"  />
+						<menuitem label="Tribble" />
+						<menuitem label="Cosmo"   />
+					</menupopup>
+				</menulist>
+				<menulist label="Pearl">
+					<menupopup>
+						<menuitem label="Pearl"   />
+						<menuitem label="Aramis"  />
+						<menuitem label="Yakima" selected="true" />
+						<menuitem label="Tribble" />
+						<menuitem label="Cosmo"   />
+					</menupopup>
+				</menulist>
+				<menulist label="Pearl">
+					<menupopup>
+						<menuitem label="Pearl"   />
+						<menuitem label="Aramis" selected="true" />
+						<menuitem label="Yakima"  />
+						<menuitem label="Tribble" />
+						<menuitem label="Cosmo"   />
+					</menupopup>
+				</menulist>
+			</vbox>
+			<spacer style="height: 10px"/>
+			<caption label="A"/>
+			<vbox flex="1">
+				<menulist label="Pearl">
+					<menupopup>
+						<menuitem label="Pearl" selected="true"  />
+						<menuitem label="Aramis"  />
+						<menuitem label="Yakima"  />
+						<menuitem label="Tribble" />
+						<menuitem label="Cosmo"   />
+					</menupopup>
+				</menulist>
+				<menulist label="Pearl">
+					<menupopup>
+						<menuitem label="Pearl"   />
+						<menuitem label="Aramis"  />
+						<menuitem label="Yakima" selected="true" />
+						<menuitem label="Tribble" />
+						<menuitem label="Cosmo"   />
+					</menupopup>
+				</menulist>
+				<menulist label="Pearl">
+					<menupopup>
+						<menuitem label="Pearl"   />
+						<menuitem label="Aramis" selected="true" />
+						<menuitem label="Yakima"  />
+						<menuitem label="Tribble" />
+						<menuitem label="Cosmo"   />
+					</menupopup>
+				</menulist>
+			</vbox>
+		</hbox>
+
+	</groupbox>
+	<spacer flex="1"/>
+	<hbox >
+		<spacer flex="1"/>
+		<button label="Valide" />
+		<button label="Annuler" />
+	</hbox>
+
+</vbox>
+
+</window>
