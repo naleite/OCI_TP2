@@ -1,0 +1,49 @@
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:UE="http://www.rennes1.com/rdf#">
+
+  <RDF:Seq about="http://www.rennes1.com/all-UE">
+    
+    <RDF:li>
+       <RDF:Description about="http://www.rennes1.com/AOC">
+         <UE:nom>AOC</UE:nom>
+         <UE:resp>Noel Plouzeau</UE:resp>
+         <UE:Heure>36</UE:Heure>
+         <UE:CM>12</UE:CM>
+         <UE:TD>12</UE:TD>
+         <UE:TP>12</UE:TP>
+         <UE:ctrlEx>50%</UE:ctrlEx>
+         <UE:ctrlCC>30%</UE:ctrlCC>
+         <UE:ctrlTP>20%</UE:ctrlTP>
+         
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description about="http://www.rennes1.com/COA">
+         <UE:nom>COA</UE:nom>
+         <UE:resp> Noel Plouzeau</UE:resp>
+          <UE:Heure>36</UE:Heure>
+         <UE:CM>18</UE:CM>
+         <UE:TD>4</UE:TD>
+         <UE:TP>10</UE:TP>
+         <UE:ctrlEx>50%</UE:ctrlEx>
+         <UE:ctrlCC>30%</UE:ctrlCC>
+         <UE:ctrlTP>20%</UE:ctrlTP>
+         
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description about="http://www.rennes1.com/TLC">
+         <UE:nom>TLC</UE:nom>
+         <UE:resp>Guillaume Piere </UE:resp>
+          <UE:Heure>36</UE:Heure>
+         <UE:CM>24</UE:CM>
+         <UE:TD>0</UE:TD>
+         <UE:TP>12</UE:TP>
+          <UE:ctrlEx>50%</UE:ctrlEx>
+         <UE:ctrlCC>30%</UE:ctrlCC>
+         <UE:ctrlTP>20%</UE:ctrlTP>
+         
+       </RDF:Description>
+    </RDF:li>
+  </RDF:Seq>
+</RDF:RDF>
